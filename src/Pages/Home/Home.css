@@ -1,0 +1,10 @@
+.Hero{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Hero img{
+    width: 651px;
+    height: 469px;
+    margin-top: 36px;
+}

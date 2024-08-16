@@ -1,0 +1,31 @@
+.Text-Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 557px;
+    height: 100%;
+    margin-top: 54px;
+}
+.Text-Div h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.Text-Div p{
+    font-size: 24px;
+    margin-bottom: 32px;
+    width: 497px;
+}
+.Text-Div button{
+    display: flex;
+    width: max-content;
+    padding: 24px 56px 24px 56px;
+    border-radius: 40px;
+    font-size: 22px;
+    gap: 10px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
