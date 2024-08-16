@@ -8,3 +8,8 @@
     height: 469px;
     margin-top: 36px;
 }
+.CardsList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
