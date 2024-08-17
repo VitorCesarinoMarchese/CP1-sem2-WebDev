@@ -1,0 +1,20 @@
+.cel{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cel img{
+    width: 651px;
+    height: 650px;
+    margin-top: 36px;
+}
+
+.plans{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    max-width: 100%;
+}

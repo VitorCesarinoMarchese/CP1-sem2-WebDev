@@ -1,8 +1,10 @@
+import './Card.css';
+
 function Card(prop) {
   return (
     <>
-      <div style={{background: `${prop.color}`}}>
-        <div>
+      <div className="card" style={{background: `${prop.color}`}}>
+        <div className="card-title">
           <h2>{prop.id}</h2>
           <img src={prop.img} alt={prop.alt} />
         </div>

@@ -1,0 +1,40 @@
+.card{
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 309px;
+    height: 326px;
+    padding: 16px 34px 16px 34px;
+}
+
+.card img{
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+}
+
+.card h2{
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.card h3{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-title img{
+    margin-left: 150px;
+}
