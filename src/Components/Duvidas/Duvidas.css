@@ -1,0 +1,19 @@
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    max-width: 577px;
+    max-height: 222px; 
+}
+.Duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    border-right: 2px solid #b9b7b7;
+    margin-right: 110px;
+}
+.imgsDuvidas{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
