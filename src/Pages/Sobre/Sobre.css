@@ -31,5 +31,7 @@
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
+  gap: 12px;
   max-width: 100%;
+  margin-bottom: 20px;
 }

@@ -23,7 +23,6 @@ function Sobre() {
         },
       ],
       btnText: "Cadastrar",
-      btnColor: "#6975E8",
     },
     {
       id: "Profissional - Times",
@@ -31,24 +30,22 @@ function Sobre() {
       items: [
         {
           section: "1-10 Usuários",
-          listText: "Vídeos Ilimitados R$40",
+          listText: "Vídeos Ilimitados",
           preco: "R$40",
         },
         {
           section: "+10 Usuários",
-          listText: "Vídeos Ilimitados R$20",
+          listText: "Vídeos Ilimitados",
           preco: "R$20",
         },
       ],
       btnText: "Cadastrar",
-      btnColor: "#fff",
     },
     {
       id: "Corporativo",
       color: "#fff",
       btnText: "Entre em Contato",
       img: MocaApoiada,
-      btnColor: "#fff",
     },
   ];
 
