@@ -1,7 +1,7 @@
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Sobre.css";
 import Text from "../../Components/Text/Text";
-import Planos from "../../Components/Planos/Planos"
+import Planos from "../../Components/Planos/Plansnos"
 import MocaApoiada from "../../assets/MocaApoiada.png";
 import cel1 from "../../assets/cel1.jfif";
 import cel2 from "../../assets/cel2.jfif";
