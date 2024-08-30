@@ -1,7 +1,7 @@
 import NavBar from "../../Components/NavBar/NavBar";
 import "./Sobre.css";
 import Text from "../../Components/Text/Text";
-import Plans from "../../components/Plans/Plans";
+import Planos from "../../Components/Planos/Planos"
 import MocaApoiada from "../../assets/MocaApoiada.png";
 import cel1 from "../../assets/cel1.jfif";
 import cel2 from "../../assets/cel2.jfif";
@@ -68,13 +68,13 @@ function Sobre() {
         <ul className="plans">
           {plans.map((data) => (
             <li key={data.id}>
-              <Plans
+              <Planos
                 id={data.id.toString()}
                 color={data.color}
                 items={data.items}
                 btnText={data.btnText}
                 img={data.img}
-              ></Plans>
+              ></Planos>
             </li>
           ))}
         </ul>

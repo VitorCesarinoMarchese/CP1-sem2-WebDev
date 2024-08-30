@@ -1,7 +1,7 @@
 import { CaretDown } from "@phosphor-icons/react";
-import "./Plans.css";
+import "./Planos.css";
 
-function Plans(prop) {
+export default function Planos(prop) {
   if (prop.img) {
     return (
       <>
@@ -53,4 +53,3 @@ function Plans(prop) {
   );
 }
 
-export default Plans;
